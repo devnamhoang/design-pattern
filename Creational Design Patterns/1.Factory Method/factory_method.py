@@ -27,7 +27,7 @@ class HtmlButton(Button): # implement Button interface
         # Return an HTML representation of a button.
         pass
 
-class Dialog(ABC): # abstract class
+class Dialog(ABC): # abstract class # ROOT HERE #
     
     @abstractmethod
     def createButton(self) -> Button:
